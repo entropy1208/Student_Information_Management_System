@@ -1,0 +1,9 @@
+{% load i18n %}
+
+{% block content %}
+
+<p>{% trans "Thanks for spending some quality time with the Web site today." %}</p>
+
+<p><a href="{% url 'students:homepage' %}">{% trans 'Log in again' %}</a></p>
+
+{% endblock %}
